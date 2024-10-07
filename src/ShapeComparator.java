@@ -17,5 +17,4 @@ public class ShapeComparator implements Comparator<Shape> {
         return Integer.compare(s1.getY(), s2.getY());
     }
 
-    }
 }

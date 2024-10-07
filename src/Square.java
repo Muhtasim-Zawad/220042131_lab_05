@@ -1,9 +1,9 @@
 public class Square implements Shape{
-    private int side;
+    private double side;
     private int x, y;
 
 
-    public Square(int side, int x, int y) {
+    public Square(double side, int x, int y) {
         this.side = side;
         this.x = x;
         this.y = y;
