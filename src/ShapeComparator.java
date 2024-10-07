@@ -14,7 +14,12 @@ public class ShapeComparator implements Comparator<Shape> {
             return xComparison;
         }
 
-        return Integer.compare(s1.getY(), s2.getY());
+        int yComparison = Integer.compare(s1.getY(), s2.getY());
+        if (yComparison != 0) {
+            return yComparison * -1;
+        } else {
+            return yComparison;
+        }
     }
 
 }

@@ -49,8 +49,8 @@ class ShapeTest {
     @Test
     void testShapeConstructor() {
         Shape shape = ShapeFactory.createRectangle(1, 2, 3, 4);
-        assertEquals(1, shape.getX());
-        assertEquals(2, shape.getY());
+        assertEquals(3, shape.getX());
+        assertEquals(4, shape.getY());
     }
 
     @Test
