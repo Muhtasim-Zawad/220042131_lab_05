@@ -1,5 +1,5 @@
 public interface Shape {
     double calcArea ();
-    int getX;
-    int getY;
+    int getX();
+    int getY();
 }
